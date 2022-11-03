@@ -1,4 +1,8 @@
-# MayMeow.MacList
+# MacList
+
+Simple utility to show MAC adresses of network interfaces.
+
+![](/app.png)
 
 ```powershell
 dotnet publish MayMeow.MacList.App --runtime win-x64 --self-contained true /p:PublishTrimmed=false /p:PublishSingleFile=true -c Release -o ./output/app
